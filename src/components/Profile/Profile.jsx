@@ -1,5 +1,5 @@
-import userData from '../user.json';
-import styles from '../components/Profile.module.css';
+import userData from 'components/Profile/user.json';
+import styles from 'components/Profile/Profile.module.css';
 
 export const ProfileComponent = () => {
   const { username, tag, location, avatar, stats } = userData;

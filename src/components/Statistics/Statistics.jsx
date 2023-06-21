@@ -1,4 +1,4 @@
-import styles from '../components/Statistics.module.css';
+import styles from 'components/Statistics/Statistics.module.css';
 
 export const Statistics = ({ title, stats }) => {
   if (!stats || stats.length === 0) {
